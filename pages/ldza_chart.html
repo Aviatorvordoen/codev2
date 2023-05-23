@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> <!--search icon-->
+    <link rel="stylesheet" href="../css/styles.css"> <!--includes styles-->
+    <title>LDZA</title>
+</head>
+<body>
+    <div class="gerenal_nav_menu_skel">
+        <nav class="menu_nav_items">
+            <button class="airportopt" id="airp_menu">LDZA▼</button>
+            <button class="airport_charts_chapters" id="acc1">REF</button>
+            <button class="airport_charts_chapters_disable" id="acc2" disabled>CO</button>
+            <button class="airport_charts_chapters" id="acc3">STAR</button>
+            <button class="airport_charts_chapters" id="acc4">APPR</button>
+            <button class="airport_charts_chapters" id="acc5">TAXI</button>
+            <button class="airport_charts_chapters" id="acc6">SID</button>
+            <!-- <p class="orintation">A</p> -->
+
+            <button class="user" id="usr">USER</button>
+        </nav>
+    </div>
+
+    <div class="airport_options_list" id="aol">
+        <form action="" class="airport_options_form" id="aof">
+            <input type="text" name="" class="find_airport_input" id="airf" placeholder="FIND AIRPORT..." list="airpts">
+            <!-- <span class="material-symbols-outlined" id="mso_search">search</span> -->
+            <datalist id="airpts">
+                <option value="LDZA"></option>
+                <option value="LIML"></option>
+                <option value="LDSP"></option>
+                <option value="LSZH"></option>
+                <option value="LKPR"></option>
+                <option value="EKRN"></option>
+                <option value="ESMT"></option>
+                <option value="ESGG"></option>
+                <option value="ESKN"></option>
+                <option value="EDDH"></option>
+                <option value="EDDK"></option>
+                <option value="LOWW"></option>
+                <option value="EDDP"></option>
+                <option value="ESSV"></option>
+                <option value="EDDF"></option>
+                <option value="LIRF"></option>
+                <option value="LIPZ"></option>
+                <option value="LFSB"></option>
+                <option value="EGLL"></option>
+                <option value="LOWI"></option>
+                <option value="EDDL"></option>
+                <option value="LSME"></option>
+                <option value="EBBR"></option>
+            </datalist>
+        </form>
+    </div>
+
+
+    <div class="user_container">
+        <nav class="nav_user_container">
+            <a href="#" class="user_links" id="usrst">SETTINGS</a>
+            <a href="#" class="user_links">CHECKLISTS</a>
+            <a href="#" class="user_links">OPERATIONS</a>
+            <a href="https://docs.google.com/spreadsheets/d/1IxQiTMF8BNEtVRcjhYaDITHcOjtcUJwr/edit?usp=sharing&ouid=104159083042731647538&rtpof=true&sd=true" target="form_src" class="user_links">calc perfomance</a>
+        </nav>
+    </div>
+
+    <div class="settings_container">
+        <div class="title_block">
+            <p class="title_text" id="set_t">SETTINGS</p><hr>
+        </div>
+        <div class="main_settings_block">
+            <p class="hint">Theme
+                <button class="light_theme light_theme_active" id="l_theme">LIGHT</button>
+                <button class="dark_theme" id="d_theme">DARK</button>
+            </p>
+            <p class="hint">Show disabled buttons
+                <input id="sdb" type="checkbox">
+            </p>
+            <p class="hint">Use custom theme for checklists
+                <button class="custom_theme selected">Follow sel options</button>
+                <button class="custom_theme">dark</button>
+                <button class="custom_theme">light</button>
+            </p>
+            <a href="#" class="user_guide">User guide</a><br><br>
+            <button class="return" id="ret">Return</button>
+            
+        </div>
+    </div>
+    
+    <div class="refmenu_list">
+        <nav class="refnav">
+            <p class="pagehint"><b>TAXI (10-9B)</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1SQRMHQc9Di8YnRbyzFaPuY4-n57NOiyw/preview" target="form_src" class="taxilinks">PARKING STANDS (DETAILED)</a><br><br>
+        </nav>
+    </div>
+
+
+    <div class="comenu_list">
+        <nav class="comenu">
+            <a href="" class="colinks">l2</a>
+        </nav>
+    </div>
+
+
+    <div class="starmenu_list">
+        <nav class="star_menu">
+            <p class="hinttext">STARS LDZA</p>
+            <p class="runw">RUNWAY 04</p>
+            <p class="pagehint"><b>10-2</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1DcYtUEdv6stlS2ZgwPp5p3nR3vUXPMgy/preview" target="form_src" class="starlinks" onclick="linkclick();">RUDIK 2Z [RUDI2Z], TEBLI 2Z [TEBL2Z]
+                VBA 2Z [VBA2Z], VEBAL 1Z [VEBA1Z] </a><br>
+            
+            <p class="pagehint"><b>10-2A</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1Ve8vg4FwkXk5XJIF5FiqTEG6j7fVkE27/preview" target="form_src" class="starlinks">KOTOR 1Z [KOTO1Z], LULU 2Z [LULU2Z]
+                NEKIN 1Z [NEKI1Z], PETOV 2Z [PETO2Z]</a><br><br>
+            <p class="runw">RUNWAY 22</p>
+            <p class="pagehint"><b>10-2B</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1wSbJ_efvnqp4JH2Gk8MauGiO2wG0MZYI/preview" target="form_src" class="starlinks">RUDIK 2Y [RUDI2Y], TEBLI 2Y [TEBL2Y], VBA 2Y [VBA2Y], VEBAL 1Y [VEBA1Y]</a><br><br>
+            <p class="pagehint"><b>10-2C</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1lZ2ko8BjnuuybXuVy79sQ1Lz0PYxhLXI/preview" target="form_src" class="starlinks">KOTOR 2X [KOTO2X], KOTOR 2Y [KOTO2Y], LULUD 1Y [LULU1Y], NEKIN 2Y [NEKI2Y], PETOV 2Y [PETO2Y]</a><br><br>
+            <p class="runw">ALL RUNWAYS</p>
+            <p class="pagehint"><b>10-2D</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1v6FPEYBwQ0lzQyThucG89M4o_bAPULrx/preview" target="form_src" class="starlinks">BARNA 3A (VBA 3A), BARNA 3B (VBA 3B)</a><br><br>
+            <p class="pagehint"><b>10-2E</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1L9H-xrUF6nXmosUeFnkYhZP29JGRdH1F/preview" target="form_src" class="starlinks">KOTOR 3A [KOTO3A], KOTOR 3B [KOTO3B]</a><br><br>
+            <p class="pagehint"><b>10-2F</b></p><br><br>
+            <a href="https://drive.google.com/file/d/10hN_8769xAIrC3MYdCqxnscur7HUHqBI/preview" target="form_src" class="starlinks">LULUD 1A [LULU1A], LULUD 1B [LULU1B]</a><br><br>
+            <p class="pagehint"><b>10-2G</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1FPNlqOf-E-A5DUcHoQqIT0lZL3f60JRx/preview" target="form_src" class="starlinks">NEKIN 1A [NEKI1A], NEKIN 1B [NEKI1B]</a><br><br>
+            <p class="pagehint"><b>10-2H</b></p><br><br>
+            <a href="https://drive.google.com/file/d/13x5OyYS8P3xykSCioXqomcmDTrgme1I2/preview" target="form_src" class="starlinks">PETOV 3F [PETO3F], PETOV 3G [PETO3G]</a><br><br>
+            <p class="pagehint"><b>10-2J</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1V6JEbMPatj6fXoLJqP7HlZgr1vl--VKd/preview" target="form_src" class="starlinks">RUDIK 6A [RUDI6A], RUDIK 3B [RUDI3B]</a><br><br>
+            <p class="pagehint"><b>10-2K</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1cHr1mLD0-q_mfLAuz_9eoBoiWL6FrxFn/preview" target="form_src" class="starlinks">TEBLI 3A [TEBL3A], TEBLI 3B [TEBL3B]</a><br><br>
+        </nav>
+    </div>
+
+
+    <div class="apprmenu_list">
+        <nav class="appr_menu">
+            <p class="hinttext">APPROACH LDZA CHART</p>
+            <p class="runw">RUNWAY 04</p>
+            <p class="pagehint"><b>11-1</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1Nni8hP50IGmXYti6Ngmi7limrBsuk34I/preview" target="form_src" class="apprlinks">ILS Z OR LOC Z RWY 04</a><br><br>
+            <p class="pagehint"><b>11-1A</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1jxZIX-Bpfs-EsG0Iqu1iHcWOK3dfxvNI/preview" target="form_src" class="apprlinks">CAT II/III ILS RWY 04</a><br><br>
+            <p class="pagehint"><b>11-2</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1j5IXRrN13rUhFAZ3N1vjUhFJy26NjV61/preview" target="form_src" class="apprlinks">ILS Y OR LOC Y RWY 04</a><br><br>
+            <p class="pagehint"><b>11-2A</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1Kw-k-joDc_T6PVx9bkdqax23yM9c1_4F/preview" target="form_src" class="apprlinks">CAT II/III ILS Y OR LOC Y RWY 04</a><br><br>
+            <p class="pagehint"><b>12-1</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1GLUgeTzo43j-4kPZAKGWdobtXBp98zpV/preview" target="form_src" class="apprlinks">RNP RWY 04</a><br><br>
+            <p class="pagehint"><b>16-1</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1WIrfEg2gxKqIZ4T8ghTx3OwKDPNJaaoH/preview" target="form_src" class="apprlinks">Lctr RWY 04</a><br><br>
+            <p class="runw">RUNWAY 22</p>
+            <p class="pagehint"><b>11-3</b></p><br><br>
+            <a href="https://drive.google.com/file/d/14wPlG9MP_UZ4JqT48BLZUieaVmeR5mpY/preview" target="form_src" class="apprlinks">ILS Z OR LOC Z RWY 22</a><br><br>
+            <p class="pagehint"><b>11-4</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1Ix5SOJbHaPRyu_L-MG3O-IuqZU7ny989/preview" target="form_src" class="apprlinks">ILS Y OR LOC Y RWY 22</a><br><br>
+            <p class="pagehint"><b>12-2</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1DiinHhh1H9EasEDcTUV5LS1-wRuJkh1p/preview" target="form_src" class="apprlinks">RNP RWY 22</a><br><br>
+            <p class="pagehint"><b>16-2</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1BYid1h124LdijujOVC3I_9GiVqcawaqj/preview" target="form_src" class="apprlinks">Lctr RWY 22</a><br><br>
+        </nav>
+    </div>
+
+
+    <div class="taximenu_list">
+        <nav class="taximenu">
+            <p class="hinttext">TAXI CHARTS</p>
+            <p class="pagehint"><b>10-9</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1vvDDJEN-B7-hMszAArQsD_rFtnKFcbQk/preview" class="taxilinks" target="form_src">AIRPORT CHART</a><br><br>
+            <p class="pagehint"><b>10-9A</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1vWgzZpxTKTfO0YXjr-38tRFAqnp-6Xqx/preview" target="form_src" class="taxilinks">PARKING STANDS</a><br><br>
+        </nav>
+    </div>
+
+
+    <div class="sidmenu_list">
+        <nav class="sidmenu">
+            <p class="hinttext">SIDS LDZA</p>
+            <p class="runw">RUNWAY 04</p>
+            <p class="pagehint"><b>10-3</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1AvzjhhLNo1uJAqtn10zvBwUGrlGAdHpg/preview" class="sidslinks" target="form_src">KOPRI 1W [KOPR1W], MOSAV 1W [MOSA1W]
+            TEBLI 1W [TEBL1W], VBA 1W [VBA1W], OBUTI 1U [OBUT1U]</a><br><br>
+            <p class="pagehint"><b>10-3A</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1126H2QvWhxzhg9zomBzgYA0lIyvykK1M/preview" class="sidslinks" target="form_src">KOTOR 1W [KTO1W], KOTOR 1U [KOTO1U]
+            NIVES 1W [NIVE1W], PODET 1W [PODE1W]</a><br><br>
+            <p class="runw">RUNWAY 22</p>
+            <p class="pagehint"><b>10-3B</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1SoMewG2Arm6HWllXckulhq66-oijyFDF/preview" class="sidslinks" target="form_src">KOPRI 1V [KOPR1V], MOSAV 1V [MOSA1V]
+            TEBLI 1V [TEBL1V], VBA 1V [VBAT 1 V]
+            OBUTI 1T [OBUT1T], OBUTI 1V [OBUT1V]</a><br><br>
+            <p class="pagehint"><b>10-3C</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1gbcH_pPKwm6ZrMKPyKzLFM4nsxwoYzDh/preview" class="sidslinks" target="form_src">KOTOR 1V [KOTO1V], NIVES 1V [NIVE1V]
+            PODET 1T [PODE1T], PODET 1V [PODE1V]</a><br><br>
+            <p class="runw">ALL RUNWAYS</p>
+            <p class="pagehint"><b>10-3D</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1cVMYb9ajrZ2rI7u9De5ORLwgsfWEGBZ2/preview" class="sidslinks" target="form_src">BARNA 5C (VBA 5C), BARNA 5E (VBA 5E)</a><br><br>
+            <p class="pagehint"><b>10-3E</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1fyKxnEVn4mMtWwoXnFbEcToLN86gzIK5/preview" class="sidslinks" target="form_src">KOTOR 4L [KOTO4L], KOTOR 4R [KOTO4R], KOTOR 3S [KOTO3S]</a><br><br>
+            <p class="pagehint"><b>10-3F</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1fR0WzJmjy3AeL2MJW4beC3msSeUtsuFC/preview"" class="sidslinks" target="form_src">MOSAV 4C [MOSA4C], MOSAV 4D [MOSA4D]</a><br><br>
+            <p class="pagehint"><b>10-3G</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1lHxeMA86IZQU4zP2cjChEH7jmk_fNw_d/preview" class="sidslinks" target="form_src">NIVES 5C [NIVE5C], NIVES 5D [NIVE5D]</a><br><br>
+            <p class="pagehint"><b>10-3H</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1ZN97oGTVZf8xiPAybTBDJlV9JADz1P32/preview" class="sidslinks" target="form_src">OBUTI 3H [OBUT3H] OBUTI 4K [OBUT4K] OBUTI 4J [OBUT4J]</a><br><br>
+            <p class="pagehint"><b>10-3J</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1hTvrBUT322343p20ofu6z607PRUlRlAn/preview" class="sidslinks" target="form_src">PETOV 4H [PETO4H], PETOV 4J [PETO4J] PODET 5C [PODE5C], PODET 4F [PODE4F]</a><br><br>
+            <p class="pagehint"><b>10-3K</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1JxbwwHtoy-xsmoGAr6TeQwpuC1L1SheY/preview" class="sidslinks" target="form_src">RASIN 4C [RASI4C], TEBLI 6C [TEBL6C], TEBLI 5J [TEBL5J]</a><br><br>
+            <p class="pagehint"><b>10-3L</b></p><br><br>
+            <a href="https://drive.google.com/file/d/1VjtRFZ_ZGbeF0-mA3He6P9OV0DF5TisB/preview" class="sidslinks" target="form_src">ZAGREB 5E (ZAG 5E), ZAGREB 5F (ZAG 5F)</a>
+        </nav>
+    </div>
+
+    <div class="view_contant" id="vc">
+        <iframe src="../pages/blank.html" class="frclass" id="frameid" action="" name="form_src"></iframe>
+    </div>
+
+    <div class="lower_menu_skel" id="ml">
+        <nav class="lower_menu_items" id="lower_it">
+            <button class="btclass" id="acsbtn">A/C</button>
+            <button class="btclass" id="bflt">FLIGHTS</button>
+            <button class="btclass" id="rwy">RUNWAYS</button>
+            <button class="btclass" id="wxid">WX</button>
+            <button class="btclass" id="commid">COMM</button>
+        </nav>
+        <script src="../js/buttons/charts.js"></script>
+</body>
+</html>

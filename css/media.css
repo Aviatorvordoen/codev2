@@ -1,0 +1,150 @@
+@media screen and (max-height: 1600px) and (orientation: portrait)
+{
+  #frameid
+  {
+    height: 1525px;
+  }
+  /* upper menu */
+  #airp_menu
+  {
+    font-size: 28px;
+  }
+
+  #acc1
+  {
+    font-size: 28px;
+  }
+  #acc2
+  {
+    font-size: 28px;
+  }
+  #acc3
+  {
+    font-size: 28px;
+  }
+
+  #acc4
+  {
+    font-size: 28px;
+  }
+
+  #acc5
+  {
+    font-size: 28px;
+  }
+  #acc6
+  {
+    font-size: 28px;
+  }
+
+  #usr
+  {
+    font-size: 28px;
+  }
+  /* lower menu */
+  #acsbtn
+  {
+    font-size: 28px;
+  }
+  #bflt
+  {
+    font-size: 28px;
+  }
+  #rwy
+  {
+    font-size: 28px;
+  }
+  #wxid
+  {
+    font-size: 28px
+  }
+  #commid
+  {
+    font-size: 28px;
+  }
+
+  /* media querys for menus div */
+  #aol
+  {
+    height: 400px;
+  }
+  #airf
+  {
+    font-size: 25px;
+    width: 310px;
+  }
+
+}
+
+/* display notebook */
+@media screen and (width: 2160px) and (height: 1440px) 
+{
+    #frameid
+    {
+      height: 101vw;
+    }
+    /* upper menu */
+    #airp_menu
+    {
+      font-size: 13px;
+    }
+
+    #acc1
+    {
+      font-size: 16px;
+    }
+    #acc2
+    {
+      font-size: 16px;
+    }
+    #acc3
+    {
+      font-size: 16px;
+    }
+  
+    #acc4
+    {
+      font-size: 16px;
+    }
+  
+    #acc5
+    {
+      font-size: 16px;
+    }
+    #acc6
+    {
+      font-size: 16px;
+    }
+    /* lower menu */
+    #acsbtn
+    {
+      font-size: 16px;
+    }
+    #bflt
+    {
+      font-size: 16px;
+    }
+    #rwy
+    {
+      font-size: 16px;
+    }
+    #wxid
+    {
+      font-size: 16px;
+    }
+    #commid
+    {
+      font-size: 16px;
+    }
+  
+    /* media querys for menus div */
+    #aol
+    {
+      height: 400px;
+    }
+    #airf
+    {
+      font-size: 40px;
+      width: 350px;
+    }
+}

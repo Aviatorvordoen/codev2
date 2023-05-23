@@ -1,0 +1,716 @@
+/* include media */
+@import 'media.css';
+
+
+/* index slyles */
+
+html{
+    background-color: #37404f;
+    overflow: hidden;
+
+}
+
+
+.body_content_center
+{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.body_content_center_for_access
+{
+    margin: 0;
+    display: block;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+
+/* reg page */
+.center_container
+{
+    text-align: center;
+}
+
+
+.sign_in_text
+{
+    color: #fff;
+}
+
+.tokenInput
+{
+    text-align: center;
+}
+
+
+/*ldza chart*/
+
+html
+{
+    overflow: hidden;
+}
+
+.user{
+    right: 0;
+    position: absolute;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+.orintation {
+    right: 0;
+    top: 0;
+    margin-top: 2px;
+    margin-right: 2px;
+    position: absolute;
+    background-color: orange;
+    border: none;
+    color: black;
+}
+
+.user_container
+{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    display: none;
+}
+
+.settings_container {
+    display: none;
+    right: 0;
+    position: absolute;
+    background-color: white;
+}
+
+.settings_container_dark
+{
+    background-color: #000;
+}
+
+.settings_container_active{
+    display: block;
+}
+
+
+.title_block {
+    color: #000;
+    text-align: center;
+}
+.main_settings_block {
+}
+.hint {
+    color: #000;
+}
+
+.hint_light {
+    color: #fff;
+}
+
+.dark_theme {
+    border: solid black 2px;
+    background-color: transparent;
+    color: #000;
+}
+.light_theme {
+    border: solid black 2px;
+    background-color: transparent;
+    color: #000;
+}
+
+
+
+.light_theme_active {
+    border: solid black 2px;
+    background-color: blue;
+    color: #fff
+}
+.dark_theme_active {
+    background-color: blue;
+    color: #fff;
+}
+
+.custom_theme{
+    border: solid black 2px;
+    background-color: transparent;
+    color: #000;
+}
+
+.theme_button_dark{
+    border: solid black 2px;
+    background-color: transparent;
+    color: black;
+}
+
+.theme_button{
+    border: solid black 2px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.text_dark_theme
+{
+    color: #fff;
+}
+
+.selected
+{
+    border: solid black 2px;
+    background-color: blue;
+    color: #fff;
+}
+
+.user_guide
+{
+    text-decoration: none;
+    color: #000;
+}
+
+/* settings button */
+
+
+
+.user_container_active
+{
+    display: block;
+}
+
+.user_links
+{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding-block: 7px;
+    padding-left: 4px;
+}
+
+/* ui image upper menu */
+.ui_img_settings {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    margin-right: 65px;
+}
+
+
+.gerenal_nav_menu_skel 
+{
+    background-color: #37404f;
+    color: #fff;
+    margin-left: -8px;
+    margin-top: -8px;
+    width: 100vw;
+
+}
+
+.airportopt 
+{
+    background-color: #37404f;
+    color: white;
+    border: none;
+}
+.airport_charts_chapters 
+{
+    background-color: #37404f;
+    color: white;
+    border: none;
+}
+
+.view_contant
+{
+    margin-left: -9px;
+    margin-bottom: -4px;
+    z-index: -1;
+
+}
+
+.frclass 
+{
+    background-color: #fff;
+    border: none;
+    width: 101vw;
+    height: 94.2vh;
+}
+
+.lower_menu_skel 
+{
+    background-color: #37404f;
+    color: #fff;
+    margin-left: -9px;
+    width: 100vw;
+}
+
+.btclass 
+{
+    background-color: #37404f;
+    color: white;
+    border: none;
+}
+
+
+/* menus */
+
+.refmenu_list 
+{
+    width: 300px;
+    height: 400px;
+    display: none;
+    background-color: #37404f;
+    position: absolute;
+    z-index: 2;
+    overflow: auto;
+}
+.comenu_list 
+{
+    width: 300px;
+    height: 400px;
+    display: none;
+    background-color: #37404f;
+    position: absolute;
+    z-index: 2;
+    overflow: auto;
+}
+.starmenu_list 
+{
+    width: 300px;
+    height: 400px;
+    display: none;
+    background-color: #37404f;
+    position: absolute;
+    z-index: 2;
+    overflow: auto;
+}
+.apprmenu_list 
+{
+    width: 300px;
+    height: 400px;
+    display: none;
+    background-color: #37404f;
+    position: absolute;
+    z-index: 2;
+    overflow: auto;
+}
+.taximenu_list 
+{
+    width: 300px;
+    height: 400px;
+    display: none;
+    background-color: #37404f;
+    position: absolute;
+    z-index: 2;
+    overflow: auto;
+}
+.sidmenu_list 
+{
+    width: 300px;
+    height: 400px;
+    display: none;
+    background-color: #37404f;
+    position: absolute;
+    z-index: 2;
+    overflow: auto;
+}
+
+
+.airport_charts_chapters_clicked
+{
+    background-color: #6b92cd;
+}
+
+
+
+.dropdown_menu_toggle
+{
+    width: 300px;
+    height: 400px;
+    background-color: #37404f;
+    display: none;
+    position: absolute;
+    z-index: 2;
+    margin-left: -8px;
+}
+
+
+.quick_link
+{
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.text_label 
+{
+    color: #fff;
+    display: block;
+}
+
+/* decorate links for charts*/
+
+.taxilinks
+{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.starlinks
+{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.apprlinks
+{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.sidslinks
+{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.hinttext 
+{
+    text-align: center;
+    color: white;
+
+}
+.runw 
+{
+    color: lightgreen;
+    text-align: center;
+
+}
+.pagehint 
+{
+    text-align: center;
+    background-color: yellow;
+    color: black;
+
+}
+
+.airport_options_list
+{
+    background-color: #37404f;
+    display: none;
+    position: absolute;
+    z-index: 2;
+    margin-left: -8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    overflow: auto;
+    height: 35px;
+}
+
+
+.airportopt_clicked
+{
+    background-color: #6b92cd;
+}
+
+.dropdown_menu_list_show
+{
+    display: block;
+}
+
+
+.texthint 
+{
+    color: black;
+    text-align: center;
+    background-color: orange;
+}
+.origin_airport 
+{
+    text-decoration: none;
+    color: white;
+}
+.destination_airport 
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.find_airport_input_field
+{
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+
+.find_airport
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.material-symbols-outlined
+{
+    color: #fff;
+    cursor: pointer;
+}
+
+/* flights page */
+
+.title_container 
+{
+    background-color: #37404f;
+    color: #fff;
+    text-align: center;
+
+}
+
+.actions_container 
+{
+    margin-top: 10px;
+    align-items: center;
+}
+
+.actions {
+    background-color: #37404f;
+    color: #fff;
+    border: none;
+}
+
+/*List of flights */
+
+.flightlogscontainer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow-y: auto;
+}
+.data {
+    position: relative;
+    background-color: yellow;
+    color: black;
+}
+.flightlogdepature {
+    position: relative;
+    color: #fff;
+}
+.flightlogarrival {
+    position: relative;
+    color: #fff;
+}
+.flightlogtimeenroute {
+    position: relative;
+    color: #fff;
+}
+
+
+/* create new flight page */
+
+.New_flight_container 
+{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.new_flight_items {
+    display: flex;
+    flex-direction: column;
+}
+
+#depid
+{
+    position: absolute;
+    width: 170px;
+    background-color: #fff;
+    color: black;
+    
+}
+
+#arrid
+{
+    background-color: #fff;
+    color: black;
+    margin-top: 30px;
+    position: absolute;
+    width: 170px;
+}
+
+#call
+{
+    background-color: #fff;
+    color: black;
+    margin-top: 9px;
+    width: 170px;
+}
+
+#gf
+{
+    background-color: #fff;
+    color: black;
+    width: 130px;
+}
+
+
+
+.newflight_text 
+{
+    color: #fff;
+
+}
+
+.textmeny {
+    height: 250px;
+    width: 300px;
+    background-color: #fff;
+    color: black;
+}
+
+
+.warn
+{
+    border-color: red;
+
+}
+
+.routehint {
+    margin-top: 40px;
+    color: #fff;
+}
+
+
+.sc {
+    color: #fff;
+}
+
+
+
+/* acs page */
+
+.myacs_container
+{
+    text-align: center;
+    font-size: 40px;
+    color: lime;
+}
+
+.subtext_acs_container
+{
+    color: #fff;
+}
+
+
+
+/*RWY INFO PAGE*/
+
+.rwyinf_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    position: absolute;
+}
+
+.rwy_number {
+    background-color: orange;
+    color: black;
+}
+
+.crs {
+    color: #fff;
+}
+.gs {
+    color: #fff;
+}
+.appr_types {
+    color: #fff;
+}
+.appr_type_rwy {
+    color: #fff;
+}
+.elev {
+    color: #fff;
+}
+.rwy {
+    color: #fff;
+}
+.tch {
+    color: #fff;
+}
+
+/* table style */
+#tbl
+{
+    color: #fff;
+}
+
+
+
+/* record flight page*/
+
+.title {
+    align-items: center;
+}
+.tptext {
+    color: #fff;
+}
+.from {
+    color: #fff;
+}
+
+.dateinpid{
+    color: #fff
+}
+
+.recflt_actions {
+}
+.rec_button {
+    margin-top: 20px;
+}
+
+.rec_flight_inputs {
+    background-color: #fff;
+}
+
+
+/*comm styles*/
+
+.comm_name 
+{
+    display: flex;
+    flex-direction: row;
+}
+.comm_title {
+}
+.freq {
+    display: flex;
+    flex-direction: row;
+}
+.comm_freq_text {
+}
