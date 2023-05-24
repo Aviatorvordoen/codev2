@@ -1,4 +1,4 @@
-/* display notebook */
+/* display notebook
 @media screen and (width: 2160px) and (height: 1440px) 
 {
     #frameid
@@ -6,7 +6,7 @@
       height: 101vw;
     }
     /* upper menu */
-    #airp_menu
+    /* #airp_menu
     {
       font-size: 13px;
     }
@@ -38,7 +38,7 @@
       font-size: 16px;
     }
     /* lower menu */
-    #acsbtn
+    /* #acsbtn
     {
       font-size: 16px;
     }
@@ -60,7 +60,7 @@
     }
   
     /* media querys for menus div */
-    #aol
+    /* #aol
     {
       height: 400px;
     }
@@ -69,7 +69,7 @@
       font-size: 40px;
       width: 350px;
     }
-}
+} */
 
 
 /* media querys for 100% view (412x798) */
