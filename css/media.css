@@ -148,3 +148,75 @@
       width: 350px;
     }
 }
+
+
+/* media querys for 100% view (412x798) */
+@media screen and (width: 412px) and (height: 798px) and (orientation: portrait)
+{
+  html{
+    overflow: hidden;
+  }
+  #frameid
+  {
+    height: 754px;
+  }
+
+  #airp_menu
+  {
+    font-size: 13px;
+  }
+
+  #acc1
+  {
+    font-size: 13px;
+  }
+  #acc2
+  {
+    font-size: 13px;
+  }
+  #acc3
+  {
+    font-size: 13px;
+  }
+
+  #acc4
+  {
+    font-size: 13px;
+  }
+
+  #acc5
+  {
+    font-size: 13px;
+  }
+  #acc6
+  {
+    font-size: 13px;
+  }
+}
+
+#usr
+  {
+    margin-top: 3px;
+    font-size: 13px;
+  }
+  /* lower menu */
+  #acsbtn
+  {
+    font-size: 13px;
+  }
+  #bflt
+  {
+    font-size: 13px;
+  }
+  #rwy
+  {
+    font-size: 13px;
+  }
+  #wxid
+  {
+    font-size: 13px
+  }
+  #commid
+  {
+    font-size:13px;
+  }

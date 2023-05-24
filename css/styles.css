@@ -56,6 +56,12 @@ html{
 .tokenInput
 {
     text-align: center;
+    background-color: #fff;
+}
+
+.reset_token
+{
+    color: white;
 }
 
 
