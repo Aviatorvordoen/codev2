@@ -35,7 +35,7 @@ form.addEventListener('submit', (e)=>{
   e.preventDefault();
   // console.log('working');
   // valid path
-  if (window.location.pathname == '/pages/signIN.html')
+  if (window.location.pathname == './pages/signIN.html')
   {
     let AccessTokenInput = document.querySelector('.tokenInput').value
     // console.log(AccessTokens);
@@ -47,7 +47,7 @@ form.addEventListener('submit', (e)=>{
     }
   }
 
-  if (window.location.pathname == '/pages/reset_entry_token.html')
+  if (window.location.pathname == './pages/reset_entry_token.html')
   {
     let ResetTokenInputField = document.querySelector('.TokenReset_input').value
     if (ResetTokenInputField == ResetTokenInputField)
