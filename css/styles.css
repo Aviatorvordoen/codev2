@@ -7,7 +7,6 @@
 html{
     background-color: #37404f;
     overflow: hidden;
-
 }
 
 
@@ -45,6 +44,7 @@ html{
 .center_container
 {
     text-align: center;
+    justify-content: center;
 }
 
 
@@ -52,8 +52,31 @@ html{
 {
     color: #fff;
 }
+/* reset label */
+
+.reset_token_link
+{
+    color: white;
+}
+
+.TokenReset_input
+{
+    text-align: center;
+}
+
+/* container for reset elements */
+.reset_elements_container{
+    position: absolute;
+}
+
 
 .tokenInput
+{
+    text-align: center;
+    background-color: #fff;
+}
+
+.TokenReset
 {
     text-align: center;
     background-color: #fff;
@@ -208,6 +231,11 @@ html
     color: #fff;
     padding-block: 7px;
     padding-left: 4px;
+}
+
+.user_log_in
+{
+    color: #fff;
 }
 
 /* ui image upper menu */
@@ -719,4 +747,27 @@ html
     flex-direction: row;
 }
 .comm_freq_text {
+}
+
+
+
+/* RESET TOKEN PAGE */
+
+.donetext 
+{
+    font-weight: bold;
+    color: lime;
+    display: none;
+}
+
+.donetext_show
+{
+    display: block;
+}
+
+
+
+/* GET WETHER PAGE STYLES */
+.wxpage_hint{
+    color: #fff;
 }

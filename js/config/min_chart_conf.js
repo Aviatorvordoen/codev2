@@ -260,8 +260,32 @@ function Show_runways_information(){
 }
 
 
-function getwx(){
-  frame.src = 'https://www.checkwx.com/weather/LDZA/metar';
+function getwx()
+{
+    if (window.location.pathname == '/pages/ldsp_chart.html')
+    {
+        // console.log('1');
+        frame.src = 'https://www.checkwx.com/weather/LDSP/metar';
+    }
+
+    if (window.location.pathname == '/pages/ldza_chart.html')
+    {
+        // console.log('2');
+        frame.src = 'https://www.checkwx.com/weather/LDZA/metar';
+    }
+
+    if (window.location.pathname == '/pages/liml_chart.html')
+    {
+        // console.log('3');
+        frame.src = 'https://www.checkwx.com/weather/LIML/metar';
+    }
+
+    if (window.location.pathname == '/pages/lszh_chart.html')
+    {
+        // console.log('4');
+        frame.src = 'https://www.checkwx.com/weather/LSZH/metar';
+    }
+
 }
 
 
@@ -374,8 +398,34 @@ AIPRORT_CHART_CHAPTER_ACC6.addEventListener('click', OpenACC_Menu6)
 // DARK_THEME_SW.addEventListener('click', Change_theme_to_dark)
 acs.addEventListener('click', acstoggle)
 comm.addEventListener('click', OpenCommPage)
-RUNWAYS_INF_BUTTON.addEventListener('click', Show_runways_information)
-WX_BUTTON.addEventListener('click', getwx)
+// RUNWAYS_INF_BUTTON.addEventListener('click', Show_runways_information)
+WX_BUTTON.addEventListener('click', ()=>
+{
+
+  if (window.location.pathname == '/pages/ldsp_chart.html')
+  {
+      // console.log('1');
+      frame.src = 'https://www.checkwx.com/weather/LDSP/metar';
+  }
+
+  if (window.location.pathname = '/pages/ldza_chart.html')
+  {
+      // console.log('2');
+      frame.src = 'https://www.checkwx.com/weather/LDZA/metar';
+  }
+
+  if (window.location.pathname = '/pages/liml_chart.html')
+  {
+      // console.log('3');
+      frame.src = 'https://www.checkwx.com/weather/LIML/metar';
+  }
+
+  if (window.location.pathname = '/pages/lszh_chart.html')
+  {
+      // console.log('4');
+      frame.src = 'https://www.checkwx.com/weather/LSZH/metar';
+  }
+})
 FLIGHTS.addEventListener('click', OpenMyFlightsPage)
 user_menu_btn.addEventListener('click', ShowUserMenu)
 //DEPARTURE_LINK.addEventListener('click', departure_link_open_chart)

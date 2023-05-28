@@ -35,6 +35,16 @@ window.onload = () => {
         
     }
 
+    if (window.location.pathname == '/pages/ldza_chart.html')
+    {
+        localStorage.setItem('Page', 'LDZA');
+    }
+    
+    if (window.location.pathname == '/pages/liml_chart.html')
+    {
+        localStorage.setItem('Page', 'LIML');
+    }
+
 }
 
 // LocalStorage
@@ -288,9 +298,9 @@ function Show_runways_information(){
     frame.src = './runwaysinf.html';
 }
 
-
-function getwx(){
-    frame.src = 'https://www.checkwx.com/weather/LDZA/metar';
+function getwx()
+{
+    frame.src = '../pages/airportswx.html';
 }
 
 
@@ -407,8 +417,7 @@ LIGHT_THEME_SW.addEventListener('click', Change_theme_to_light)
 DARK_THEME_SW.addEventListener('click', Change_theme_to_dark)
 acs.addEventListener('click', acstoggle)
 comm.addEventListener('click', OpenCommPage)
-RUNWAYS_INF_BUTTON.addEventListener('click', Show_runways_information)
-WX_BUTTON.addEventListener('click', getwx)
+// RUNWAYS_INF_BUTTON.addEventListener('click', Show_runways_information)
 FLIGHTS.addEventListener('click', OpenMyFlightsPage)
 user_menu_btn.addEventListener('click', ShowUserMenu)
 //DEPARTURE_LINK.addEventListener('click', departure_link_open_chart)
@@ -444,3 +453,7 @@ form.addEventListener('submit', (e) =>
 })
 
 
+WX_BUTTON.addEventListener('click', getwx)
+
+
+// 'https://www.checkwx.com/weather/LDSP/metar' - metar link
