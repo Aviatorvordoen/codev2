@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./checklists_styles.css">
+  <title></title>
+</head>
+<body>
+  <style>
+    html
+    {
+      background-color: #000;
+    }
+    .main_container
+    {
+      color: #fff;
+      text-align: center;
+    }
+    .necessary_checks
+    {
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+    }
+
+
+
+  </style>
+  
+  <div class="main_container">
+    <p class="checklist_name">TAXI
+      <p class="necessary_checks">
+        <P>FLIGHT CONTROLS ---------- CHECKED (BOTH)</P>
+        <P>FLAP SETTING ---------- CONF__ (BOTH)</P>
+        <P>RADAR & PRED W/S ---------- ON & AUTO</P>
+        <P>ENG MODE SEL ---------- __</P>
+        <P>ECAM MEMO ---------- TO NO BLUE</P>
+        <P>- AUTO BRK MAX</P>
+        <P>- SIGNS ON</P>
+        <P>- CABIN READY</P>
+        <P>- SPLRS ARM</P>
+        <P>- FLAPS TO</P>
+        <P>- TO CONFIRM NORM</P>
+      </p>
+    </p>
+    <button class="ret">RETURN</button>
+  </div>
+  <script>
+    const ret_btn = document.querySelector('.ret').addEventListener('click', ()=>{
+      window.location.replace('../choose_checklist.html')
+    })
+  </script>
+</body>
+</html>

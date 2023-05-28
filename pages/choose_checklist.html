@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    .main_contant_contaiener{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .checklist{
+      margin: 15px;
+      text-align: center;
+      height: 25px;
+      background-color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    
+    
+  </style>
+  
+  <div class="main_contant_contaiener">
+    <button class="checklist" id="cl_1">COCKPIT PREPARATION</button>
+    <button class="checklist" id="cl_2" >BEFORE START</button>
+    <button class="checklist" id="cl_3">AFTER START</button>
+    <button class="checklist" id="cl_4">TAXI</button>
+    <button class="checklist" id="cl_5">LINE-UP</button>
+    <button class="checklist" id="cl_6">APPROACH</button>
+    <button class="checklist" id="cl_7">LANDING</button>
+    <button class="checklist" id="cl_8">AFTER LANDING</button>
+    <button class="checklist" id="cl_9">PARKING</button>
+    <button class="checklist" id="cl_10">SECURING THE AIRCRAFT</button>
+  </div>
+
+  <script>
+    let btn1 = document.getElementById('cl_1').addEventListener('click', ()=>
+    {
+      window.location.replace('./checklists/cockpit_prep.html')
+
+    })
+    let btn2 = document.getElementById('cl_2').addEventListener('click', ()=>
+    {
+      window.location.replace('./checklists/before_start.html')
+
+    })
+    let btn3 = document.getElementById('cl_3').addEventListener('click', ()=>
+    {
+      window.location.replace('./checklists/after_start.html')
+
+    })
+    let btn4 = document.getElementById('cl_4').addEventListener('click', ()=>
+    {
+      window.location.replace('./checklists/taxi.html')
+
+
+    })
+    let btn5 = document.getElementById('cl_5').addEventListener('click', ()=>
+    {
+      window.location.replace('./checklists/line_up.html')
+
+    })
+    let btn6 = document.getElementById('cl_6').addEventListener('click', ()=>
+    {
+      window.location.replace('./checklists/appr.html')
+
+    })
+    let btn7 = document.getElementById('cl_7').addEventListener('click', ()=>
+    {
+      window.location.replace('./checklists/landing.html')
+
+    })
+    let btn8 = document.getElementById('cl_8').addEventListener('click', ()=>
+    {
+      window.location.replace('./checklists/after_landing.html')
+
+    })
+    let btn9 = document.getElementById('cl_9').addEventListener('click', ()=>
+    {
+      window.location.replace('./checklists/parking.html')
+
+    })
+    let btn10 = document.getElementById('cl_10').addEventListener('click', ()=>
+    {
+      window.location.replace('./checklists/securing.html')
+
+    })
+  </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./checklists_styles.css">
+  <title></title>
+</head>
+<body>
+  <style>
+    html
+    {
+      background-color: #000;
+    }
+    .main_container
+    {
+      color: #fff;
+      text-align: center;
+    }
+    .necessary_checks
+    {
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+    }
+
+
+
+  </style>
+  
+  <div class="main_container">
+    <p class="checklist_name">COCKPIT PREPARATION
+      <p class="necessary_checks">
+        <p>GEAR PINS & COVERS ---------- REMOVED</p>
+        <p>FUEL QUANTITY ---------- __KG/LB</p>
+        <p>SEAT BELTS ---------- ON</p>
+        <p>ADIRS ---------- NAV</p>
+        <p>BARO REF ---------- __SET (BOTH)</p>
+      </p>
+    </p>
+    <button class="ret">RETURN</button>
+  </div>
+  <script>
+    const ret_btn = document.querySelector('.ret').addEventListener('click', ()=>{
+      window.location.replace('../choose_checklist.html')
+    })
+  </script>
+</body>
+</html>
