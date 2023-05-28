@@ -42,7 +42,8 @@ form.addEventListener('submit', (e)=>{
     // let AccessTokenInput = document.querySelector('.TokenReset_input').value;
     if ((AccessTokenInput == AccessTokens[0]) || (AccessTokenInput == AccessTokens.at(-1)))
     {
-      window.location.replace('.ldza_chart.html')
+      console.log('work');
+      window.location.replace('./ldza_chart.html')
     }
   }
 
