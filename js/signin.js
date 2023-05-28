@@ -1,12 +1,12 @@
 // on load page
-window.onload = ()=>{
-  if (localStorage.getItem('NW'))
-  {
-    AccessTokens.push(localStorage.getItem('NW'))
-    localStorage.removeItem('NW');
-    console.log(AccessTokens);
-  }
-}
+// window.onload = ()=>{
+//   if (localStorage.getItem('NW'))
+//   {
+//     AccessTokens.push(localStorage.getItem('NW'))
+//     localStorage.removeItem('NW');
+//     console.log(AccessTokens);
+//   }
+// }
 
 
 // get elements
@@ -16,6 +16,17 @@ let apply_text = document.querySelector('.donetext')
 let reset_label = document.querySelector('.rst_text')
 // let reset_token_link = document.querySelector('.reset_token_link').addEventListener('click', Reset_token)
 bodyel.classList.add('body_content_center_for_access')
+const login_btn = document.getElementById('login_btnid').addEventListener('click', ()=>{
+  let AccessTokenInput = document.querySelector('.tokenInput').value
+  // console.log(AccessTokens);
+  // let AccessTokenInput = document.querySelector('.TokenReset_input').value;
+  if ((AccessTokenInput == AccessTokens[0]) || (AccessTokenInput == AccessTokens.at(-1)))
+  {
+    console.log('work');
+    window.location.replace('ldza_chart.html');
+  }
+
+})
 
 function Reset_token()
 {
@@ -37,13 +48,15 @@ form.addEventListener('submit', (e)=>{
   // valid path
   if (window.location.pathname == './pages/signIN.html')
   {
+    // console.log('df')
     let AccessTokenInput = document.querySelector('.tokenInput').value
     // console.log(AccessTokens);
     // let AccessTokenInput = document.querySelector('.TokenReset_input').value;
-    if ((AccessTokenInput == AccessTokens[0]) || (AccessTokenInput == AccessTokens.at(-1)))
+    // if ((AccessTokenInput == AccessTokens[0]) || (AccessTokenInput == AccessTokens.at(-1)))
+    if (AccessTokenInput == "1")
     {
       console.log('work');
-      window.location.replace('./ldza_chart.html')
+      window.location.replace('.ldza_chart.html');
     }
   }
 
