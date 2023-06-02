@@ -12,8 +12,8 @@
 // get elements
 let bodyel = document.querySelector('body');
 let form = document.getElementById('fg');
-let apply_text = document.querySelector('.donetext')
-let reset_label = document.querySelector('.rst_text')
+// let apply_text = document.querySelector('.donetext')
+// let reset_label = document.querySelector('.rst_text')
 // let reset_token_link = document.querySelector('.reset_token_link').addEventListener('click', Reset_token)
 bodyel.classList.add('body_content_center_for_access')
 const login_btn = document.getElementById('login_btnid').addEventListener('click', ()=>{
@@ -49,7 +49,7 @@ form.addEventListener('submit', (e)=>{
   if (window.location.pathname == './pages/signIN.html')
   {
     // console.log('df')
-    let AccessTokenInput = document.querySelector('.tokenInput').value
+    let AccessTokenInput = document.querySelector('.TokenReset_input').value
     // console.log(AccessTokens);
     // let AccessTokenInput = document.querySelector('.TokenReset_input').value;
     // if ((AccessTokenInput == AccessTokens[0]) || (AccessTokenInput == AccessTokens.at(-1)))

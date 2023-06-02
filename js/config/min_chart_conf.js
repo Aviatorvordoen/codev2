@@ -50,7 +50,7 @@ const sidlink = document.getElementById('sls')
 const DEPARTURE_LINK = document.getElementById('dql')
 const ARRIVAL_LINK = document.getElementById('aql')
 const form = document.getElementById("aof")
-const user_menu_btn = document.getElementById('usr')
+// const user_menu_btn = document.getElementById('usr')
 
 // CONST FOR MENU
 
@@ -259,36 +259,6 @@ function Show_runways_information(){
   frame.src = './runwaysinf.html';
 }
 
-
-function getwx()
-{
-    if (window.location.pathname == '/pages/ldsp_chart.html')
-    {
-        // console.log('1');
-        frame.src = 'https://www.checkwx.com/weather/LDSP/metar';
-    }
-
-    if (window.location.pathname == '/pages/ldza_chart.html')
-    {
-        // console.log('2');
-        frame.src = 'https://www.checkwx.com/weather/LDZA/metar';
-    }
-
-    if (window.location.pathname == '/pages/liml_chart.html')
-    {
-        // console.log('3');
-        frame.src = 'https://www.checkwx.com/weather/LIML/metar';
-    }
-
-    if (window.location.pathname == '/pages/lszh_chart.html')
-    {
-        // console.log('4');
-        frame.src = 'https://www.checkwx.com/weather/LSZH/metar';
-    }
-
-}
-
-
 function Getqueryairport(){
   let find_airport_inp_field = document.querySelector('.find_airport').value
   if ((find_airport_inp_field == AIRPORT_LIST[1] && AIRPROT_LIST_LOWER[1])){
@@ -401,33 +371,10 @@ comm.addEventListener('click', OpenCommPage)
 // RUNWAYS_INF_BUTTON.addEventListener('click', Show_runways_information)
 WX_BUTTON.addEventListener('click', ()=>
 {
-
-  if (window.location.pathname == '/pages/ldsp_chart.html')
-  {
-      // console.log('1');
-      frame.src = 'https://www.checkwx.com/weather/LDSP/metar';
-  }
-
-  if (window.location.pathname = '/pages/ldza_chart.html')
-  {
-      // console.log('2');
-      frame.src = 'https://www.checkwx.com/weather/LDZA/metar';
-  }
-
-  if (window.location.pathname = '/pages/liml_chart.html')
-  {
-      // console.log('3');
-      frame.src = 'https://www.checkwx.com/weather/LIML/metar';
-  }
-
-  if (window.location.pathname = '/pages/lszh_chart.html')
-  {
-      // console.log('4');
-      frame.src = 'https://www.checkwx.com/weather/LSZH/metar';
-  }
+  frame.src = './airportswx.html';
 })
 FLIGHTS.addEventListener('click', OpenMyFlightsPage)
-user_menu_btn.addEventListener('click', ShowUserMenu)
+// user_menu_btn.addEventListener('click', ShowUserMenu)
 //DEPARTURE_LINK.addEventListener('click', departure_link_open_chart)
 //ARRIVAL_LINK.addEventListener('click', arrival_link_open_chart)
 form.addEventListener('submit', (e) =>
@@ -438,25 +385,27 @@ form.addEventListener('submit', (e) =>
 
   if (find_input == "LIML")
   {
-      window.location.replace('./liml_chart.html');
+    console.log('check work');
+    
+    window.location.replace('./liml_chart.html');
   }
 
   if (find_input == "LDZA")
 
   {
-      window.location.replace('./ldza_chart.html');
+    window.location.replace('./ldza_chart.html');
   }
 
   if (find_input == "LDSP")
 
   {
-      window.location.replace('./ldsp_chart.html');
+    window.location.replace('./ldsp_chart.html');
   }
 
   if (find_input == "LSZH")
 
   {
-      window.location.replace('./lszh_chart.html');
+    window.location.replace('./lszh_chart.html');
   }
 })
 

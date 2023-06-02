@@ -365,11 +365,6 @@ function departure_link_open_chart()
     }
 }
 
-function arrival_link_open_chart()
-{
-    null
-}
-
 
 function ShowUserMenu()
 {
@@ -428,24 +423,24 @@ form.addEventListener('submit', (e) =>
 
     let find_input = document.querySelector('.find_airport_input').value
 
-    if (find_input == "LIML")
+    if (find_input == AIRPORT_LIST[1])
     {
         window.location.replace('./liml_chart.html');
     }
 
-    if (find_input == "LDZA")
+    if (find_input == AIRPORT_LIST[0])
 
     {
         window.location.replace('./ldza_chart.html');
     }
 
-    if (find_input == "LDSP")
+    if (find_input == AIRPORT_LIST[2])
 
     {
         window.location.replace('./ldsp_chart.html');
     }
 
-    if (find_input == "LSZH")
+    if (find_input == AIRPORT_LIST[3])
 
     {
         window.location.replace('./lszh_chart.html');
