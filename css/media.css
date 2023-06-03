@@ -78,9 +78,13 @@
   html{
     overflow: hidden;
   }
+  .gerenal_nav_menu_skel{
+    padding-top: 4px;
+  }
   #frameid
   {
-    height: 700px;
+    height: 752px;
+    /* background-color: red; */
   }
 
   #airp_menu
@@ -141,4 +145,79 @@
   #commid
   {
     font-size:13px;
+  }
+
+/* landscape orientation */
+@media screen and (width: 622px) and (height: 412px) {
+
+  html{
+    overflow: hidden;
+  }
+  .gerenal_nav_menu_skel{
+    padding-top: 4px;
+  }
+  #frameid
+  {
+    height: 361px;
+    /* background-color: red; */
+  }
+
+  #airp_menu
+  {
+    font-size: 13px;
+  }
+
+  #acc1
+  {
+    font-size: 13px;
+  }
+  #acc2
+  {
+    font-size: 13px;
+  }
+  #acc3
+  {
+    font-size: 13px;
+  }
+
+  #acc4
+  {
+    font-size: 13px;
+  }
+
+  #acc5
+  {
+    font-size: 13px;
+  }
+  #acc6
+  {
+    font-size: 13px;
+  }
+}
+
+#usr
+  {
+    margin-top: 3px;
+    font-size: 13px;
+  }
+  /* lower menu */
+  #acsbtn
+  {
+    font-size: 13px;
+  }
+  #bflt
+  {
+    font-size: 13px;
+  }
+  #rwy
+  {
+    font-size: 13px;
+  }
+  #wxid
+  {
+    font-size: 13px
+  }
+  #commid
+  {
+    font-size: 13px;
   }
