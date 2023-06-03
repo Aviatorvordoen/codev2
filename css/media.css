@@ -148,7 +148,7 @@
   }
 
 /* landscape orientation */
-@media screen and (width: 616px) and (height: 412px) {
+@media screen and (min-width: 1400px) and (min-height: 700px) {
   .gerenal_nav_menu_skel{
     padding-top: 4px;
   }
