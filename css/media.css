@@ -149,7 +149,7 @@
 
   /* tablet */
 
-  @media screen and (min-width: 768px) and (min-height: 698px)
+  @media screen and (min-width: 768px) and (max-width: 1023px) and (min-height: 698px)
 {
   .gerenal_nav_menu_skel{
     padding-top: 4px;
