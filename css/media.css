@@ -148,7 +148,7 @@
   }
 
 /* landscape orientation */
-@media screen and (width: 622px) and (height: 412px) {
+@media screen and (width: 616px) and (height: 412px) {
 
   html{
     overflow: hidden;
