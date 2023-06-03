@@ -163,7 +163,7 @@
   #airp_menu
   {
     font-size: 13px;
-    color: orange;
+    color: lime;
   }
 
   #acc1
@@ -221,3 +221,76 @@
     font-size:13px;
   }
 
+/* landscape positon */
+
+@media screen and (min-width: 768px) and (min-width: 1023px) and (max-width: 1900px) and (min-height: 698px)
+{
+  .gerenal_nav_menu_skel{
+    padding-top: 4px;
+  }
+  #frameid
+  {
+    height: 642px;
+    /* background-color: red; */
+  }
+
+  #airp_menu
+  {
+    font-size: 13px;
+    color: orange;
+  }
+
+  #acc1
+  {
+    font-size: 13px;
+  }
+  #acc2
+  {
+    font-size: 13px;
+  }
+  #acc3
+  {
+    font-size: 13px;
+  }
+
+  #acc4
+  {
+    font-size: 13px;
+  }
+
+  #acc5
+  {
+    font-size: 13px;
+  }
+  #acc6
+  {
+    font-size: 13px;
+  }
+}
+
+#usr
+  {
+    margin-top: 3px;
+    font-size: 13px;
+  }
+  /* lower menu */
+  #acsbtn
+  {
+    font-size: 13px;
+  }
+  #bflt
+  {
+    font-size: 13px;
+  }
+  #rwy
+  {
+    font-size: 13px;
+  }
+  #wxid
+  {
+    font-size: 13px
+  }
+  #commid
+  {
+    font-size:13px;
+  }
