@@ -1,79 +1,5 @@
-/* display notebook
-@media screen and (width: 2160px) and (height: 1440px) 
-{
-    #frameid
-    {
-      height: 101vw;
-    }
-    /* upper menu */
-    /* #airp_menu
-    {
-      font-size: 13px;
-    }
-
-    #acc1
-    {
-      font-size: 16px;
-    }
-    #acc2
-    {
-      font-size: 16px;
-    }
-    #acc3
-    {
-      font-size: 16px;
-    }
-  
-    #acc4
-    {
-      font-size: 16px;
-    }
-  
-    #acc5
-    {
-      font-size: 16px;
-    }
-    #acc6
-    {
-      font-size: 16px;
-    }
-    /* lower menu */
-    /* #acsbtn
-    {
-      font-size: 16px;
-    }
-    #bflt
-    {
-      font-size: 16px;
-    }
-    #rwy
-    {
-      font-size: 16px;
-    }
-    #wxid
-    {
-      font-size: 16px;
-    }
-    #commid
-    {
-      font-size: 16px;
-    }
-  
-    /* media querys for menus div */
-    /* #aol
-    {
-      height: 400px;
-    }
-    #airf
-    {
-      font-size: 40px;
-      width: 350px;
-    }
-} */
-
-
-/* media querys for 100% view (412x798) */
-@media screen and (min-width: 375px) and (min-height: 698px)
+/* mobile s (small)*/
+@media screen and (min-width: 320px) and (max-width: 375px) and (min-height: 698px)
 {
   .gerenal_nav_menu_skel{
     padding-top: 4px;
@@ -88,6 +14,156 @@
   {
     font-size: 13px;
     color: green;
+  }
+
+  #acc1
+  {
+    font-size: 13px;
+  }
+  #acc2
+  {
+    font-size: 13px;
+  }
+  #acc3
+  {
+    font-size: 13px;
+  }
+
+  #acc4
+  {
+    font-size: 13px;
+  }
+
+  #acc5
+  {
+    font-size: 13px;
+  }
+  #acc6
+  {
+    font-size: 13px;
+  }
+}
+
+#usr
+  {
+    margin-top: 3px;
+    font-size: 13px;
+  }
+  /* lower menu */
+  #acsbtn
+  {
+    font-size: 13px;
+  }
+  #bflt
+  {
+    font-size: 13px;
+  }
+  #rwy
+  {
+    font-size: 13px;
+  }
+  #wxid
+  {
+    font-size: 13px
+  }
+  #commid
+  {
+    font-size:13px;
+  }
+
+
+
+/* mobile m (middile) */
+@media screen and (min-width: 375px) and (max-width: 768px) and (min-height: 698px)
+{
+  .gerenal_nav_menu_skel{
+    padding-top: 4px;
+  }
+  #frameid
+  {
+    height: 642px;
+    /* background-color: red; */
+  }
+
+  #airp_menu
+  {
+    font-size: 13px;
+    color: red;
+  }
+
+  #acc1
+  {
+    font-size: 13px;
+  }
+  #acc2
+  {
+    font-size: 13px;
+  }
+  #acc3
+  {
+    font-size: 13px;
+  }
+
+  #acc4
+  {
+    font-size: 13px;
+  }
+
+  #acc5
+  {
+    font-size: 13px;
+  }
+  #acc6
+  {
+    font-size: 13px;
+  }
+}
+
+#usr
+  {
+    margin-top: 3px;
+    font-size: 13px;
+  }
+  /* lower menu */
+  #acsbtn
+  {
+    font-size: 13px;
+  }
+  #bflt
+  {
+    font-size: 13px;
+  }
+  #rwy
+  {
+    font-size: 13px;
+  }
+  #wxid
+  {
+    font-size: 13px
+  }
+  #commid
+  {
+    font-size:13px;
+  }
+
+
+  /* tablet */
+
+  @media screen and (min-width: 768px) and (min-height: 698px)
+{
+  .gerenal_nav_menu_skel{
+    padding-top: 4px;
+  }
+  #frameid
+  {
+    height: 642px;
+    /* background-color: red; */
+  }
+
+  #airp_menu
+  {
+    font-size: 13px;
+    color: orange;
   }
 
   #acc1
