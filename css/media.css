@@ -73,7 +73,7 @@
 
 
 /* media querys for 100% view (412x798) */
-@media screen and (width: 412px) and (height: 797px) and (orientation: portrait)
+@media screen and (min-width: 375px) and (min-height: 698px) and (orientation: portrait)
 {
   html{
     overflow: hidden;
@@ -83,7 +83,7 @@
   }
   #frameid
   {
-    height: 752px;
+    height: 642px;
     /* background-color: red; */
   }
 
@@ -148,7 +148,7 @@
   }
 
 /* landscape orientation */
-@media screen and (min-width: 1400px) and (min-height: 700px) {
+@media screen and (min-width: 768px) and (min-height: 690px) {
   .gerenal_nav_menu_skel{
     padding-top: 4px;
   }
